@@ -1,0 +1,1 @@
+<div id="footerDiv" align="center">@ 2013. Indu Infotech. All rights reserved.</div>

@@ -1,0 +1,109 @@
+body{
+        background-color: #343434;
+        font-family:'Museo Sans W01 500', sans-serif;
+        font-size: 14;
+}
+
+.main {
+	width:200px;
+	border:1px solid black;
+}
+
+a.sidelink {text-decoration: none;}
+a.sidelink:visited{color: blue; }
+a.sidelink:hover {color: white; background: blue; text-decoration: none; }
+
+.DivHead {background: #E2EAF8; overflow: hidden}
+
+div.testimonial {
+	border:2px solid #a1a1a1;
+	border-radius:25px;
+	padding:10px 40px;
+	background:#dddddd;
+}
+
+.errorblock {
+	width: 30%;
+	color: #ff0000;
+	background-color: #ffEEEE;
+	border: 3px solid #ff0000;
+	padding: 8px;
+	margin-left: 0;
+}
+
+/*****************HEADER**************************/
+#headerDiv{
+	width: 80%;
+	margin-left: 10%;
+	height: 10%;
+	/*background-color: #f7f7f7;*/
+	background:#FFF;
+	border-top: 3px solid #d11b21;
+	border-bottom: 3px solid #d3d3d3;
+	overflow: hidden;
+}
+
+#nav{
+	margin: 0 auto;
+	float: right;
+}
+
+#logo{
+	display: block;
+	float: left;
+}
+
+
+/********************** CONTENT ****************/
+#contentDiv {
+	width: 80%;
+	margin-left: 10%;
+	height: 86%;
+	background:#FFF;
+	overflow: hidden;    
+}
+
+#mainContent {
+	width: 70%;
+	margin-left: 10%;
+	float: left;
+}
+
+#rightRail {
+	width: 20%;
+	float: right;
+}
+
+#map{
+	width: 635px;
+	height: 335px;
+	background-color: #fff;
+	margin-left: 35px;
+	margin-top: 30px;
+	float: right;
+}
+
+/**************** CLIENTS ***************/
+#clientThumbs{
+	overflow:hidden;
+	list-style-type:none;
+	width:100%;	
+}
+#clientThumbs>li{
+	float:left;
+	padding:15px;
+	width:29%;
+}
+#clientThumbs>li>img{
+	margin:5px auto;
+}
+
+/***************** FOOTER *********************/
+#footerDiv {
+	position: fixed;
+	width: 80%;
+	height: 4%;
+	bottom: 10px;
+	margin-left: 10%;
+	background-color: #E2EAF8;
+}
